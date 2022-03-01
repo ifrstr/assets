@@ -1,0 +1,20 @@
+{
+  "name": "@ifrstr/assets",
+  "version": "0.1.0",
+  "description": "Assets for ifrstr.",
+  "repository": "https://github.com/ifrstr/assets.git",
+  "author": {
+    "name": "Il Harper",
+    "email": "afanyiyu@hotmail.com",
+    "url": "https://ilharper.com"
+  },
+  "license": "UNLICENSED",
+  "private": false,
+  "packageManager": "yarn@1.22.17",
+  "scripts": {
+    "lint": "eslint --ext .ts --ignore-path .gitignore . --fix"
+  },
+  "files": [
+    "dist"
+  ]
+}
