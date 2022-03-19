@@ -12,9 +12,28 @@
   "private": false,
   "packageManager": "yarn@1.22.17",
   "scripts": {
-    "lint": "eslint --ext .ts --ignore-path .gitignore . --fix"
+    "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore . --fix"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@remotion/bundler": "^2",
+    "@remotion/cli": "^2",
+    "@remotion/eslint-config": "*",
+    "@remotion/renderer": "^2",
+    "react": "^17",
+    "react-dom": "^17",
+    "remotion": "^2",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/web": "*",
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*",
+    "prettier": "*",
+    "ts-node": "*"
+  }
 }
